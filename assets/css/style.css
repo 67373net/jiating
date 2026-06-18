@@ -2,7 +2,7 @@
 ---
 @import "{{ site.theme }}";
 
-/* 下面是你的全局自定义样式 */
-.markdown-body a {
-    font-size: 30px; /* 把网页正文里的超链接字体统一改为 30px */
+/* 使用更精准的选择器和 !important 强行覆盖默认样式 */
+.markdown-body p a {
+    font-size: 2.8em !important;
 }
