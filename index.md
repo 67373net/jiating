@@ -2,4 +2,4 @@
 
 影视剧导航
 
-[百度](https://www.baidu.com)
+[天天影院](https://www.baixiaotangtop.com/)
