@@ -2,7 +2,12 @@
 ---
 @import "{{ site.theme }}";
 
-/* 使用更精准的选择器和 !important 强行覆盖默认样式 */
+/* 1. 把网页正文里的超链接字体统一改为 30px */
 .markdown-body p a {
-    font-size: 2.8em !important;
+    font-size: 30px !important;
+}
+
+/* 2. 隐藏最顶端标题的几个字 */
+.markdown-body h1:first-child {
+    display: none !important;
 }
